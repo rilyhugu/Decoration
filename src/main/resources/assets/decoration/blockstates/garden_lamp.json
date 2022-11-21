@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:garden_lamp", "y": 0 },
+        "facing=north": { "model": "decoration:garden_lamp", "y": 0 },
+        "facing=west": { "model": "decoration:garden_lamp", "y": 0 },
+        "facing=east": { "model": "decoration:garden_lamp", "y": 0 }
+    }
+}

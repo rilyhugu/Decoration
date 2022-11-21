@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=default": { "model": "decoration:tile_deco_mosaic_1" }
+    }
+}

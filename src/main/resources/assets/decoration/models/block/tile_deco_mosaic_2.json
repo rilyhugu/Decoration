@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "decoration:blocks/tile_deco_mosaic_2"
+    }
+}

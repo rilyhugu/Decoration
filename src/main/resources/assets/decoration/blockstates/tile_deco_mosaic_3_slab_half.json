@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "decoration:tile_deco_mosaic_3_slab_lower" },
+        "half=top,variant=default": { "model": "decoration:tile_deco_mosaic_3_slab_upper" }
+    }
+}

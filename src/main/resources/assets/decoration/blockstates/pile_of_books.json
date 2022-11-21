@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:pile_of_books", "y": 180 },
+        "facing=north": { "model": "decoration:pile_of_books", "y": 0 },
+        "facing=west": { "model": "decoration:pile_of_books", "y": 270 },
+        "facing=east": { "model": "decoration:pile_of_books", "y": 90 }
+    }
+}

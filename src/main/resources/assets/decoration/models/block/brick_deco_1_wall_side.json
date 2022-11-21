@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "decoration:blocks/brick_deco_1"
+    }
+}

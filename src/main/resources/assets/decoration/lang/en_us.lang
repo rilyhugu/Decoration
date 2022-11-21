@@ -1,0 +1,31 @@
+#Blocks
+tile.brick_golem.name=Golem Brick
+tile.brick_golem_stair.name=Golem Brick Stairs
+tile.brick_golem_slab_half.name=Golem Brick Slab
+tile.brick_golem_slab_double.name=Golem Brick Slab
+tile.brick_golem_wall=Golem Brick Wall
+
+tile.brick_deco_1.name=Deco Brick (Type 1)
+tile.brick_deco_1_stair.name=Deco Brick Stairs (Type 1)
+tile.brick_deco_1_slab_half.name=Deco Brick Slab (Type 1)
+tile.brick_deco_1_slab_double.name=Deco Brick Slab (Type 1)
+tile.brick_deco_1_wall=Deco Brick Wall (Type 1)
+tile.brick_deco_2.name=Deco Brick (Type 2)
+tile.brick_deco_2_stair.name=Deco Brick Stairs (Type 2)
+tile.brick_deco_2_slab_half.name=Deco Brick Slab (Type 2)
+tile.brick_deco_2_slab_double.name=Deco Brick Slab (Type 2)
+tile.brick_deco_2_wall=Deco Brick Wall (Type 2)
+tile.brick_deco_3.name=Deco Brick (Type 3)
+tile.brick_deco_3_stair.name=Deco Brick Stairs (Type 3)
+tile.brick_deco_3_slab_half.name=Deco Brick Slab (Type 3)
+tile.brick_deco_3_slab_double.name=Deco Brick Slab (Type 3)
+tile.brick_deco_3_wall=Deco Brick Wall (Type 3)
+tile.brick_deco_4.name=Deco Brick (Type 4)
+tile.brick_deco_4_stair.name=Deco Brick Stairs (Type 4)
+tile.brick_deco_4_slab_half.name=Deco Brick Slab (Type 4)
+tile.brick_deco_4_slab_double.name=Deco Brick Slab (Type 4)
+tile.brick_deco_4_wall=Deco Brick Wall (Type 4)
+
+#GUI
+itemGroup.tab_block=Decoration! - Blocks
+itemGroup.tab_furniture=Decoration! - Furniture

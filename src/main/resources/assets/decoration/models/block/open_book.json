@@ -1,0 +1,122 @@
+{
+	"__comment": "Designed by Rily_ with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "decoration:furniture/pile_of_books",
+		"cover": "decoration:furniture/pile_of_books",
+		"page": "decoration:furniture/book_page"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0.75, 0, 3 ],
+			"to": [ 7.75, 0.5, 13 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 3.5, 5 ], "texture": "#cover" },
+				"up": { "uv": [ 0, 0, 3.5, 5 ], "texture": "#cover" },
+				"north": { "uv": [ 0, 0, 3.5, 0.5 ], "texture": "#cover" },
+				"south": { "uv": [ 0, 0, 3.5, 0.5 ], "texture": "#cover" },
+				"west": { "uv": [ 0, 5, 5, 5.5 ], "texture": "#cover" },
+				"east": { "uv": [ 0, 5, 5, 5.5 ], "texture": "#cover" }
+			}
+		},
+		{
+			"__comment": "Box3",
+			"from": [ 7.75, 0.25, 3 ],
+			"to": [ 8.25, 0.5, 13 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 0, 1, 5 ], "texture": "#cover" },
+				"up": { "uv": [ 0.5, 0, 1, 5 ], "texture": "#cover" },
+				"north": { "uv": [ 4, 5, 4.5, 5.5 ], "texture": "#cover" },
+				"south": { "uv": [ 4, 5, 4.5, 5.5 ], "texture": "#cover" },
+				"west": { "uv": [ 0, 5, 5, 5.5 ], "texture": "#cover" },
+				"east": { "uv": [ 0, 5, 5, 5.5 ], "texture": "#cover" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 1.25, 0.5, 3.5 ],
+			"to": [ 7.75, 1, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 0, 14, 10 ], "texture": "#page" },
+				"up": { "uv": [ 7, 0, 14, 10 ], "texture": "#page" },
+				"north": { "uv": [ 0, 0, 7, 1 ], "texture": "#page" },
+				"south": { "uv": [ 0, 0, 7, 1 ], "texture": "#page" },
+				"west": { "uv": [ 0, 0, 1, 10 ], "texture": "#page", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 1, 10 ], "texture": "#page", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 7.75, 0.5, 3.5 ],
+			"to": [ 8.25, 0.75, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 1, 10 ], "texture": "#page" },
+				"up": { "uv": [ 0, 0, 1, 10 ], "texture": "#page" },
+				"north": { "uv": [ 0, 0, 1, 1 ], "texture": "#page" },
+				"south": { "uv": [ 0, 0, 1, 1 ], "texture": "#page" },
+				"west": { "uv": [ 0, 0, 1, 10 ], "texture": "#page", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 1, 10 ], "texture": "#page", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 8.25, 0, 3 ],
+			"to": [ 15.25, 0.5, 13 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 3.5, 5 ], "texture": "#cover" },
+				"up": { "uv": [ 0, 0, 3.5, 5 ], "texture": "#cover" },
+				"north": { "uv": [ 0, 0, 3.5, 0.5 ], "texture": "#cover" },
+				"south": { "uv": [ 0, 0, 3.5, 0.5 ], "texture": "#cover" },
+				"west": { "uv": [ 0, 5, 5, 5.5 ], "texture": "#cover" },
+				"east": { "uv": [ 0, 5, 5, 5.5 ], "texture": "#cover" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 8.25, 0.5, 3.5 ],
+			"to": [ 14.75, 1, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 0, 14, 10 ], "texture": "#page" },
+				"up": { "uv": [ 7, 0, 14, 10 ], "texture": "#page" },
+				"north": { "uv": [ 0, 0, 7, 1 ], "texture": "#page" },
+				"south": { "uv": [ 0, 0, 7, 1 ], "texture": "#page" },
+				"west": { "uv": [ 0, 0, 1, 10 ], "texture": "#page", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 1, 10 ], "texture": "#page", "rotation": 90 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 2 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 2 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, -57, 0 ],
+			"translation":  [ 0, 5, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -57, 0 ],
+			"translation":  [ 0, 5, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"translation":  [ 0, 5.5, 0 ],
+			"scale":  [ 0.825, 0.825, 0.825 ]
+		},
+		"ground": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

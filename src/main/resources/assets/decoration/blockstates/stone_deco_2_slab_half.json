@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "decoration:stone_deco_2_slab_lower" },
+        "half=top,variant=default": { "model": "decoration:stone_deco_2_slab_upper" }
+    }
+}

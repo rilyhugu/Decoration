@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_post",
+    "textures": {
+        "wall": "decoration:blocks/tile_deco_mosaic_3"
+    }
+}

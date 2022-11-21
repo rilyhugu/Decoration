@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:antique_chair", "y": 180 },
+        "facing=north": { "model": "decoration:antique_chair", "y": 0 },
+        "facing=west": { "model": "decoration:antique_chair", "y": 270 },
+        "facing=east": { "model": "decoration:antique_chair", "y": 90 }
+    }
+}

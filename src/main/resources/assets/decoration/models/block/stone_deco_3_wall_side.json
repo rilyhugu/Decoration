@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "decoration:blocks/stone_deco_3"
+    }
+}

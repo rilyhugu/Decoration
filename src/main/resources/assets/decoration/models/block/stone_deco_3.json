@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "decoration:blocks/stone_deco_3"
+    }
+}

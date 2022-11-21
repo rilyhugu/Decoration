@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "decoration:brick_deco_3_slab_lower" },
+        "half=top,variant=default": { "model": "decoration:brick_deco_3_slab_upper" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:open_book", "y": 180 },
+        "facing=north": { "model": "decoration:open_book", "y": 0 },
+        "facing=west": { "model": "decoration:open_book", "y": 270 },
+        "facing=east": { "model": "decoration:open_book", "y": 90 }
+    }
+}

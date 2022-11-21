@@ -1,0 +1,24 @@
+{
+    "variants": {
+        "east=false,north=true,south=false,west=false": { "model": "decoration:antique_connectable_table_2leg", "uvlock": true, "y": 0 },
+        "east=true,north=false,south=false,west=false": { "model": "decoration:antique_connectable_table_2leg", "uvlock": true, "y": 90 },
+        "east=false,north=false,south=true,west=false": { "model": "decoration:antique_connectable_table_2leg", "uvlock": true, "y": 180 },
+        "east=false,north=false,south=false,west=true": { "model": "decoration:antique_connectable_table_2leg", "uvlock": true, "y": 270 },
+
+        "east=false,north=true,south=false,west=true": { "model": "decoration:antique_connectable_table_1leg", "uvlock": true, "y": 0 },
+        "east=true,north=true,south=false,west=false": { "model": "decoration:antique_connectable_table_1leg", "uvlock": true, "y": 90 },
+        "east=true,north=false,south=true,west=false": { "model": "decoration:antique_connectable_table_1leg", "uvlock": true, "y": 180 },
+        "east=false,north=false,south=true,west=true": { "model": "decoration:antique_connectable_table_1leg", "uvlock": true, "y": 270 },
+
+        "east=true,north=false,south=false,west=true": { "model": "decoration:antique_connectable_table_noleg", "uvlock": true, "y": 0 },
+        "east=false,north=true,south=true,west=false": { "model": "decoration:antique_connectable_table_noleg", "uvlock": true, "y": 90 },
+
+        "east=true,north=true,south=false,west=true": { "model": "decoration:antique_connectable_table_noleg_t", "uvlock": true, "y": 0 },
+        "east=true,north=true,south=true,west=false": { "model": "decoration:antique_connectable_table_noleg_t", "uvlock": true, "y": 90 },
+        "east=true,north=false,south=true,west=true": { "model": "decoration:antique_connectable_table_noleg_t", "uvlock": true, "y": 180 },
+        "east=false,north=true,south=true,west=true": { "model": "decoration:antique_connectable_table_noleg_t", "uvlock": true, "y": 270 },
+
+        "east=true,north=true,south=true,west=true": { "model": "decoration:antique_connectable_table_noleg_a", "uvlock": true },
+        "east=false,north=false,south=false,west=false": { "model": "decoration:antique_connectable_table_single", "uvlock": true }
+    }
+}

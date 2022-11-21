@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "decoration:furniture/gold_crest_lower"
+    }
+}

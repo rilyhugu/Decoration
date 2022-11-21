@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "decoration:gold_crest_lower" },
+        "half=upper":    { "model": "decoration:gold_crest_upper" }
+    }
+}

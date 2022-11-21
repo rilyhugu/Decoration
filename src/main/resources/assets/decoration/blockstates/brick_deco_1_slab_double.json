@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=default": { "model": "decoration:brick_deco_1" }
+    }
+}
