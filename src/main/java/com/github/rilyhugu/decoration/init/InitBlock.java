@@ -112,6 +112,17 @@ public class InitBlock {
         DC_BLOCKS.put("book_stand", new PropBase(Material.CLOTH, "book_stand", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.CLOTH));
         DC_BLOCKS.put("open_book", new PropBase(Material.CLOTH, "open_book", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.CLOTH));
 
+        DC_BLOCKS.put("midi_keyboard", new PropBase(Material.ROCK, "midi_keyboard", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
+        DC_BLOCKS.put("monitor_middle", new FurnitureMonitor(Material.ROCK, "monitor_middle", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
+        DC_BLOCKS.put("monitor_left", new FurnitureMonitor(Material.ROCK, "monitor_left", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
+        DC_BLOCKS.put("monitor_right", new FurnitureMonitor(Material.ROCK, "monitor_right", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
+
+        //Fence
+        DC_BLOCKS.put("wrought_iron_fence_left", new PropBase(Material.IRON, "wrought_iron_fence_left", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.METAL));
+        DC_BLOCKS.put("wrought_iron_fence_right", new PropBase(Material.IRON, "wrought_iron_fence_right", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.METAL));
+
+
+
         //Food Plate
         DC_BLOCKS.put("food_plate_meat", new FurnitureFoodPlate(Material.GLASS, "food_plate_meat", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.GLASS));
         DC_BLOCKS.put("food_plate_breakfast", new FurnitureFoodPlate(Material.GLASS, "food_plate_breakfast", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.GLASS));

@@ -1,5 +1,5 @@
 # Decoration!
-このModはMinecraft 1.12.2向けの家具modです 
+このModはMinecraft 1.12.2向けの家具modです  
 使いやすくかわいらしい家具を追加します  
   
 開発環境  
