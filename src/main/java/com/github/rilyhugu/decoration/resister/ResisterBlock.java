@@ -2,6 +2,7 @@ package com.github.rilyhugu.decoration.resister;
 
 import com.github.rilyhugu.decoration.init.InitBlock;
 import com.github.rilyhugu.decoration.init.InitBlockSlab;
+import com.github.rilyhugu.decoration.init.InitFurnitureFence;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -28,10 +29,14 @@ public class ResisterBlock {
             event.getRegistry().register(block);
         }
 
-
         for( InitBlockSlab slab: InitBlock.DC_BLOCKS_SLAB.values()){
             event.getRegistry().register(slab.getSlabHalf());
             event.getRegistry().register(slab.getSlabDouble());
+        }
+
+        for( InitFurnitureFence fence: InitBlock.DC_FURNITURE_FENCE.values()){
+            event.getRegistry().register(fence.getFence());
+            event.getRegistry().register(fence.getFencePart());
         }
     }
 
@@ -47,18 +52,27 @@ public class ResisterBlock {
             item.setRegistryName(slab.getSlabHalf().getRegistryName());
             event.getRegistry().register(item);
         }
+
+        for( InitFurnitureFence fence: InitBlock.DC_FURNITURE_FENCE.values()){
+            event.getRegistry().register(new ItemBlock(fence.getFence()).setRegistryName(MOD_ID, fence.getFence().getName()));
+            event.getRegistry().register(new ItemBlock(fence.getFencePart()).setRegistryName(MOD_ID, fence.getFencePart().getName()));
+        }
     }
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public static void registerModels(ModelRegistryEvent event) {
-        for(Map.Entry<String, Block> block: InitBlock.DC_BLOCKS.entrySet()){
+        for(Map.Entry<String, Block> block: InitBlock.DC_BLOCKS.entrySet() ){
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block.getValue()), 0, new ModelResourceLocation(block.getValue().getRegistryName(), "inventory"));
         }
 
-
-        for( InitBlockSlab slab: InitBlock.DC_BLOCKS_SLAB.values()){
+        for( InitBlockSlab slab: InitBlock.DC_BLOCKS_SLAB.values() ){
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(slab.getSlabHalf()), 0, new ModelResourceLocation(slab.getSlabHalf().getRegistryName(), "inventory"));
+        }
+
+        for( InitFurnitureFence fence: InitBlock.DC_FURNITURE_FENCE.values() ){
+            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(fence.getFence()), 0, new ModelResourceLocation(fence.getFence().getRegistryName(), "inventory"));
+            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(fence.getFencePart()), 0, new ModelResourceLocation(fence.getFencePart().getRegistryName(), "inventory"));
         }
     }
 }

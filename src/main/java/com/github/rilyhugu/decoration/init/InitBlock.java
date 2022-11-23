@@ -5,7 +5,6 @@ import com.github.rilyhugu.decoration.resource.furniture.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.creativetab.CreativeTabs;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,6 +12,7 @@ import java.util.Map;
 public class InitBlock {
     public static final Map<String, Block> DC_BLOCKS = new HashMap<>();
     public static final Map<String, InitBlockSlab> DC_BLOCKS_SLAB = new HashMap<>();
+    public static final Map<String, InitFurnitureFence> DC_FURNITURE_FENCE = new HashMap<>();
 
     static {
         //Solid
@@ -118,9 +118,11 @@ public class InitBlock {
         DC_BLOCKS.put("monitor_right", new FurnitureMonitor(Material.ROCK, "monitor_right", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
 
         //Fence
-        DC_BLOCKS.put("wrought_iron_fence_left", new PropBase(Material.IRON, "wrought_iron_fence_left", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.METAL));
-        DC_BLOCKS.put("wrought_iron_fence_right", new PropBase(Material.IRON, "wrought_iron_fence_right", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.METAL));
+        DC_FURNITURE_FENCE.put("wrought_iron_fence", new InitFurnitureFence(Material.IRON, "wrought_iron_fence", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.METAL));
 
+
+        //Bench
+        DC_BLOCKS.put("wrought_iron_bench", new FurnitureConnectableHorizontal(Material.IRON, "wrought_iron_bench", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.METAL));
 
 
         //Food Plate

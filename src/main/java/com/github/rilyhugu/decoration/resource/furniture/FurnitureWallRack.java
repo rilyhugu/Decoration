@@ -9,7 +9,7 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
-public class FurnitureWallRack extends FurnitureBase {
+public class FurnitureWallRack extends FurnitureConnectableHorizontal {
 
     public FurnitureWallRack(Material material, String name, CreativeTabs tab, float hardness, float resistance, String tool, int harvestLevel, SoundType sound) {
         super(material, name, tab, hardness, resistance, tool, harvestLevel, sound);

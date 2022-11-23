@@ -12,7 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class FurnitureWallLight extends PropBase{
+public class FurnitureWallLight extends FurnitureBase {
     public FurnitureWallLight(Material material, String name, CreativeTabs tab, float hardness, float resistance, String tool, int harvestLevel, SoundType sound, Float lightLevel) {
         super(material, name, tab, hardness, resistance, tool, harvestLevel, sound);
         this.setLightLevel(lightLevel);

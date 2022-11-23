@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:midi_keyboard", "y": 0 },
+        "facing=north": { "model": "decoration:midi_keyboard", "y": 180 },
+        "facing=west": { "model": "decoration:midi_keyboard", "y": 90 },
+        "facing=east": { "model": "decoration:midi_keyboard", "y": 270 }
+    }
+}

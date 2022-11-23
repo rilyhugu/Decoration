@@ -8,7 +8,7 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
-public class FurnitureLight extends PropBase {
+public class FurnitureLight extends FurnitureBase {
     public FurnitureLight(Material material, String name, CreativeTabs tab, float hardness, float resistance, String tool, int harvestLevel, SoundType sound, Float lightLevel) {
         super(material, name, tab, hardness, resistance, tool, harvestLevel, sound);
         this.setLightLevel(lightLevel);
