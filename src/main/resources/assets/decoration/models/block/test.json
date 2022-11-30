@@ -1,0 +1,51 @@
+{
+	"__comment": "Designed by Rily_ with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/e_particle",
+		"texture": "blocks/e_texture",
+		"texture1": "decoration:furniture/plant_chefflera"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 3, -16, 3 ],
+			"to": [ 13, -5, 13 ],
+			"faces": {
+				"down": { "uv": [ 3, 3, 13, 13 ], "texture": "#texture" },
+				"up": { "uv": [ 3, 3, 13, 13 ], "texture": "#texture" },
+				"north": { "uv": [ 3, 5, 13, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 3, 5, 13, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 3, 5, 13, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 3, 5, 13, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box5",
+			"from": [ 8, 8, 0 ],
+			"to": [ 19.5, 8.001, 16 ],
+			"rotation": { "origin": [ 8, 8, 0 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 9.499999, 8, 15 ], "texture": "#texture1", "rotation": 90 },
+				"up": { "uv": [ 8, 9.499999, 0, 15 ], "texture": "#texture1", "rotation": 90 },
+				"north": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" },
+				"south": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" },
+				"west": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" },
+				"east": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Box6",
+			"from": [ -3.5, 8, 0 ],
+			"to": [ 8, 8.001, 16 ],
+			"rotation": { "origin": [ 8, 8, 0 ], "axis": "z", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 8, 9.499999, 0, 15 ], "texture": "#texture1", "rotation": 90 },
+				"up": { "uv": [ 0, 9.499999, 8, 15 ], "texture": "#texture1", "rotation": 90 },
+				"north": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" },
+				"south": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" },
+				"west": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" },
+				"east": { "uv": [ 16, 0, 16, 11.5 ], "texture": "#texture1" }
+			}
+		}
+	]
+}

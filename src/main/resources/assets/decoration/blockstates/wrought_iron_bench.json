@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "facing=north,left=false,right=false": { "model": "decoration:wrought_iron_bench_single", "y": 180 },
+        "facing=north,left=true,right=true": { "model": "decoration:wrought_iron_bench_middle", "y": 180 },
+        "facing=north,left=true,right=false": { "model": "decoration:wrought_iron_bench_left", "y": 180 },
+        "facing=north,left=false,right=true": { "model": "decoration:wrought_iron_bench_right", "y": 180 },
+
+        "facing=south,left=false,right=false": { "model": "decoration:wrought_iron_bench_single", "y": 0 },
+        "facing=south,left=true,right=true": { "model": "decoration:wrought_iron_bench_middle", "y": 0 },
+        "facing=south,left=true,right=false": { "model": "decoration:wrought_iron_bench_left", "y": 0 },
+        "facing=south,left=false,right=true": { "model": "decoration:wrought_iron_bench_right", "y": 0 },
+
+        "facing=west,left=false,right=false": { "model": "decoration:wrought_iron_bench_single", "y": 90 },
+        "facing=west,left=true,right=true": { "model": "decoration:wrought_iron_bench_middle", "y": 90 },
+        "facing=west,left=true,right=false": { "model": "decoration:wrought_iron_bench_left", "y": 90 },
+        "facing=west,left=false,right=true": { "model": "decoration:wrought_iron_bench_right", "y": 90 },
+
+        "facing=east,left=false,right=false": { "model": "decoration:wrought_iron_bench_single", "y": 270 },
+        "facing=east,left=true,right=true": { "model": "decoration:wrought_iron_bench_middle", "y": 270 },
+        "facing=east,left=true,right=false": { "model": "decoration:wrought_iron_bench_left", "y": 270 },
+        "facing=east,left=false,right=true": { "model": "decoration:wrought_iron_bench_right", "y": 270 }
+    }
+}

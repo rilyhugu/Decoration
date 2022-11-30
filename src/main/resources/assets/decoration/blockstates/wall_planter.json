@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "decoration:wall_planter", "y": 180 },
+        "facing=south": { "model": "decoration:wall_planter", "y": 0 },
+        "facing=west": { "model": "decoration:wall_planter", "y": 90 },
+        "facing=east": { "model": "decoration:wall_planter", "y": 270 }
+    }
+}

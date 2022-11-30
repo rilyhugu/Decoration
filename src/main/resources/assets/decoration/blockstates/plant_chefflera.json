@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:plant_chefflera", "y": 180 },
+        "facing=north": { "model": "decoration:plant_chefflera", "y": 0 },
+        "facing=west": { "model": "decoration:plant_chefflera", "y": 270 },
+        "facing=east": { "model": "decoration:plant_chefflera", "y": 90 }
+    }
+}

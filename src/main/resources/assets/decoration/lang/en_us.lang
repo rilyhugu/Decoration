@@ -26,6 +26,10 @@ tile.brick_deco_4_slab_half.name=Deco Brick Slab (Type 4)
 tile.brick_deco_4_slab_double.name=Deco Brick Slab (Type 4)
 tile.brick_deco_4_wall=Deco Brick Wall (Type 4)
 
+
+#Item
+item.diy_material.name=DIY Material
+
 #GUI
 itemGroup.tab_block=Decoration! - Blocks
 itemGroup.tab_furniture=Decoration! - Furniture

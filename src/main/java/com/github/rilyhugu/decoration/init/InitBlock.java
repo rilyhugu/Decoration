@@ -30,6 +30,11 @@ public class InitBlock {
         DC_BLOCKS.put("tile_deco_mosaic_2", new DecoSolid(Material.ROCK, "tile_deco_mosaic_2", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
         DC_BLOCKS.put("tile_deco_mosaic_3", new DecoSolid(Material.ROCK, "tile_deco_mosaic_3", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
 
+        DC_BLOCKS.put("wood_deco_1", new DecoSolid(Material.WOOD, "wood_deco_1", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("wood_deco_2", new DecoSolid(Material.WOOD, "wood_deco_2", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("wood_deco_3", new DecoSolid(Material.WOOD, "wood_deco_3", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+
+
         //Stair
         DC_BLOCKS.put("brick_golem_stair", new DecoStair(DC_BLOCKS.get("brick_golem"), "brick_golem_stair", InitTab.BLOCK, 2.0F, 1200.0F, "pickaxe", 3, SoundType.METAL));
         DC_BLOCKS.put("brick_deco_1_stair", new DecoStair(DC_BLOCKS.get("brick_deco_1"), "brick_deco_1_stair", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
@@ -45,6 +50,10 @@ public class InitBlock {
         DC_BLOCKS.put("tile_deco_mosaic_2_stair", new DecoStair(DC_BLOCKS.get("tile_deco_mosaic_2"), "tile_deco_mosaic_2_stair", InitTab.BLOCK, 2.0F, 1200.0F, "pickaxe", 3, SoundType.STONE));
         DC_BLOCKS.put("tile_deco_mosaic_3_stair", new DecoStair(DC_BLOCKS.get("tile_deco_mosaic_3"), "tile_deco_mosaic_3_stair", InitTab.BLOCK, 2.0F, 1200.0F, "pickaxe", 3, SoundType.STONE));
 
+        DC_BLOCKS.put("wood_deco_1_stair", new DecoStair(DC_BLOCKS.get("wood_deco_1"), "wood_deco_1_stair", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("wood_deco_2_stair", new DecoStair(DC_BLOCKS.get("wood_deco_2"), "wood_deco_2_stair", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("wood_deco_3_stair", new DecoStair(DC_BLOCKS.get("wood_deco_3"), "wood_deco_3_stair", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+
         //Wall
         DC_BLOCKS.put("brick_golem_wall", new DecoWall(Material.IRON, "brick_golem_wall", InitTab.BLOCK, 2.0F, 1200.0F, "pickaxe", 3, SoundType.METAL));
         DC_BLOCKS.put("brick_deco_1_wall", new DecoWall(Material.ROCK, "brick_deco_1_wall", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
@@ -55,6 +64,10 @@ public class InitBlock {
         DC_BLOCKS.put("stone_deco_1_wall", new DecoWall(Material.ROCK, "stone_deco_1_wall", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
         DC_BLOCKS.put("stone_deco_2_wall", new DecoWall(Material.ROCK, "stone_deco_2_wall", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
         DC_BLOCKS.put("stone_deco_3_wall", new DecoWall(Material.ROCK, "stone_deco_3_wall", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE));
+
+        DC_BLOCKS.put("wood_deco_1_wall", new DecoWall(Material.WOOD, "wood_deco_1_wall", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("wood_deco_2_wall", new DecoWall(Material.WOOD, "wood_deco_2_wall", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("wood_deco_3_wall", new DecoWall(Material.WOOD, "wood_deco_3_wall", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
 
         //Slabs
         DC_BLOCKS_SLAB.put("brick_golem_slab", new InitBlockSlab(
@@ -105,6 +118,17 @@ public class InitBlock {
                 new DecoSlab.Double(Material.ROCK,"tile_deco_mosaic_3_slab_double", InitTab.BLOCK, 2.0F, 6.0F, "pickaxe", 0, SoundType.STONE)
         ));
 
+        DC_BLOCKS_SLAB.put("wood_deco_1_slab", new InitBlockSlab(
+                new DecoSlab(Material.WOOD,"wood_deco_1_slab_half", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD),
+                new DecoSlab.Double(Material.WOOD,"wood_deco_1_slab_double", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD)
+        ));        DC_BLOCKS_SLAB.put("wood_deco_2_slab", new InitBlockSlab(
+                new DecoSlab(Material.WOOD,"wood_deco_2_slab_half", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD),
+                new DecoSlab.Double(Material.WOOD,"wood_deco_2_slab_double", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD)
+        ));        DC_BLOCKS_SLAB.put("wood_deco_3_slab", new InitBlockSlab(
+                new DecoSlab(Material.WOOD,"wood_deco_3_slab_half", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD),
+                new DecoSlab.Double(Material.WOOD,"wood_deco_3_slab_double", InitTab.BLOCK, 2.0F, 2.0F, "axe", 0, SoundType.WOOD)
+        ));
+
 
         //Furniture
         DC_BLOCKS.put("pile_of_books", new PropBase(Material.CLOTH, "pile_of_books", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.CLOTH));
@@ -117,12 +141,36 @@ public class InitBlock {
         DC_BLOCKS.put("monitor_left", new FurnitureMonitor(Material.ROCK, "monitor_left", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
         DC_BLOCKS.put("monitor_right", new FurnitureMonitor(Material.ROCK, "monitor_right", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.STONE));
 
+
+        //Café
+        DC_BLOCKS.put("blackboard_stand", new FurnitureFullCube(Material.WOOD, "blackboard_stand", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+
+
+
         //Fence
-        DC_FURNITURE_FENCE.put("wrought_iron_fence", new InitFurnitureFence(Material.IRON, "wrought_iron_fence", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.METAL));
+        DC_FURNITURE_FENCE.put("wrought_iron_fence", new InitFurnitureFence(Material.IRON, "wrought_iron_fence", InitTab.FURNITURE, 2.0F, 2.0F, "pickaxe", 0, SoundType.METAL));
+        DC_FURNITURE_FENCE.put("white_wood_fence", new InitFurnitureFence(Material.WOOD, "white_wood_fence", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
 
 
         //Bench
         DC_BLOCKS.put("wrought_iron_bench", new FurnitureConnectableHorizontal(Material.IRON, "wrought_iron_bench", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.METAL));
+
+        //On Wall Rack
+        DC_BLOCKS.put("wall_planter", new FurnitureWallBoard(Material.WOOD, "wall_planter", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("plant_chefflera", new FurnitureFullCube(Material.WOOD, "plant_chefflera", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.PLANT));
+        DC_BLOCKS.put("small_potted_plant_1", new FurnitureFullCube(Material.WOOD, "small_potted_plant_1", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("small_potted_plant_2", new FurnitureFullCube(Material.WOOD, "small_potted_plant_2", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("small_potted_plant_3", new FurnitureFullCube(Material.WOOD, "small_potted_plant_3", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+
+        DC_BLOCKS.put("bottles_1", new FurnitureFullCube(Material.GLASS, "bottles_1", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.GLASS));
+        DC_BLOCKS.put("spice_jar", new FurnitureFullCube(Material.GLASS, "spice_jar", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.GLASS));
+        DC_BLOCKS.put("sugar_jar", new FurniturePropTranslucent(Material.GLASS, "sugar_jar", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.GLASS));
+
+        DC_BLOCKS.put("dishes_1", new FurnitureFullCube(Material.GLASS, "dishes_1", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.GLASS));
+        DC_BLOCKS.put("shelf_decoration_1", new FurnitureFullCube(Material.WOOD, "shelf_decoration_1", InitTab.FURNITURE, 0.25F, 0.0F, SoundType.WOOD));
+
+        DC_BLOCKS.put("hooked_acoustic_guitar", new FurnitureWallBoard(Material.WOOD, "hooked_acoustic_guitar", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
+        DC_BLOCKS.put("soundproof_material", new FurnitureWallBoard(Material.WOOD, "soundproof_material", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
 
 
         //Food Plate
@@ -136,6 +184,7 @@ public class InitBlock {
         DC_BLOCKS.put("iron_wall_lamp", new FurnitureWallLight(Material.IRON, "iron_wall_lamp", InitTab.FURNITURE, 2.0F, 2.0F, "pickaxe", 0, SoundType.METAL, 1.0F));
 
 
+        //Iron Wood
         DC_BLOCKS.put("iron_wood_dining_chair", new FurnitureChair(Material.WOOD, "iron_wood_dining_chair", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
         DC_BLOCKS.put("iron_wood_chair", new FurnitureChair(Material.WOOD, "iron_wood_chair", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));
         DC_BLOCKS.put("iron_wood_stool", new FurnitureStool(Material.WOOD, "iron_wood_stool", InitTab.FURNITURE, 2.0F, 2.0F, "axe", 0, SoundType.WOOD));

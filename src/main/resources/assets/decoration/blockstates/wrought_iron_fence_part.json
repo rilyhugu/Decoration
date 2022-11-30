@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:wrought_iron_fence_part", "y": 0 },
+        "facing=north": { "model": "decoration:wrought_iron_fence_part", "y": 180 },
+        "facing=west": { "model": "decoration:wrought_iron_fence_part", "y": 90 },
+        "facing=east": { "model": "decoration:wrought_iron_fence_part", "y": 270 }
+    }
+}

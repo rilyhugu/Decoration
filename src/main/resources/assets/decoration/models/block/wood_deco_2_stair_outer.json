@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "decoration:blocks/wood_deco_2",
+        "top": "decoration:blocks/wood_deco_2",
+        "side": "decoration:blocks/wood_deco_2"
+    }
+}

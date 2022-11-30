@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:white_wood_fence", "y": 0 },
+        "facing=north": { "model": "decoration:white_wood_fence", "y": 180 },
+        "facing=west": { "model": "decoration:white_wood_fence", "y": 90 },
+        "facing=east": { "model": "decoration:white_wood_fence", "y": 270 }
+    }
+}

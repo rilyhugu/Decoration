@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:hooked_acoustic_guitar", "y": 180 },
+        "facing=north": { "model": "decoration:hooked_acoustic_guitar", "y": 0 },
+        "facing=west": { "model": "decoration:hooked_acoustic_guitar", "y": 270 },
+        "facing=east": { "model": "decoration:hooked_acoustic_guitar", "y": 90 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:soundproof_material", "y": 180 },
+        "facing=north": { "model": "decoration:soundproof_material", "y": 0 },
+        "facing=west": { "model": "decoration:soundproof_material", "y": 270 },
+        "facing=east": { "model": "decoration:soundproof_material", "y": 90 }
+    }
+}

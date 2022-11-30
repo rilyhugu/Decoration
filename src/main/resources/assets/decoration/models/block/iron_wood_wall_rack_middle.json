@@ -1,0 +1,55 @@
+{
+	"__comment": "Designed by Rily_ with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "decoration:furniture/base_iron_black",
+		"board": "decoration:furniture/base_wood_mocha"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 14, 6 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 10 ], "texture": "#board" },
+				"up": { "uv": [ 0, 6, 16, 16 ], "texture": "#board" },
+				"north": { "uv": [ 0, 0, 16, 2 ], "texture": "#board" },
+				"south": { "uv": [ 0, 0, 16, 2 ], "texture": "#board" },
+				"west": { "uv": [ 6, 0, 16, 2 ], "texture": "#board" },
+				"east": { "uv": [ 0, 0, 10, 2 ], "texture": "#board" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, -1 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, -1 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 114, 0 ],
+			"translation":  [ 0, 1, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 114, 0 ],
+			"translation":  [ 0, 1, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 14, -157, 0 ],
+			"translation":  [ 1, -4, 0 ],
+			"scale":  [ 0.725, 0.725, 0.725 ]
+		},
+		"ground": {
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:small_potted_plant_1", "y": 180 },
+        "facing=north": { "model": "decoration:small_potted_plant_1", "y": 0 },
+        "facing=west": { "model": "decoration:small_potted_plant_1", "y": 270 },
+        "facing=east": { "model": "decoration:small_potted_plant_1", "y": 90 }
+    }
+}

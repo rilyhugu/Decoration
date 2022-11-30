@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:spice_jar", "y": 180 },
+        "facing=north": { "model": "decoration:spice_jar", "y": 0 },
+        "facing=west": { "model": "decoration:spice_jar", "y": 270 },
+        "facing=east": { "model": "decoration:spice_jar", "y": 90 }
+    }
+}

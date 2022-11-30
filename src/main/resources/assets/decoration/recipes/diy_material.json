@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "b b",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "decoration:diy_material",
+    "count": 4
+  }
+}

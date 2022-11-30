@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "decoration:blackboard_stand", "y": 180 },
+        "facing=north": { "model": "decoration:blackboard_stand", "y": 0 },
+        "facing=west": { "model": "decoration:blackboard_stand", "y": 270 },
+        "facing=east": { "model": "decoration:blackboard_stand", "y": 90 }
+    }
+}
